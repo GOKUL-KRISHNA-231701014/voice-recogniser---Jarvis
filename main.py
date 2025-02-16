@@ -26,7 +26,7 @@ def processCommand(c):
         webbrowser.open(link)
     else:
         # Let openAi handle the request
-        #api_key = "AIzaSyBhLf8OOo_lL2sw2pKqOH5QVkvcB2GmG54"
+        #api_key = "   "
     
 
 if __name__ == "__main__":
