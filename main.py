@@ -49,9 +49,9 @@ if __name__ == "__main__":
                 # Listen for the command
                 with sr.Microphone() as source:
                     print("Jarvis Active...")
-                    audio = r.listen(source,pharse_time_out=2)
+                    audio = r.listen(source,pharse_time_limit=2)
                     command = r.recognize_google(audio)
 
-                    processCommand("Hi")
+                    processCommand(command)
         except Exception as e:
             print("Error; {0}".format(e))
